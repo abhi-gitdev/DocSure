@@ -48,7 +48,7 @@ const Navbar = () => {
       <div className="flex items-center gap-4 ml-auto">
         {!token && (
           <a
-            href="http://localhost:5174/"
+            href="https://docsure-admin.vercel.app/"
             target="_blank"
             rel="noopener noreferrer"
             className="bg-primary text-white px-4 py-2 rounded-full font-light border border-primary hover:bg-white hover:text-primary transition-all duration-300 hidden md:block"
@@ -83,7 +83,7 @@ const Navbar = () => {
         ) : (
           <button
             onClick={() => navigate("/login")}
-            className="bg-primary text-white px-4 py-2 rounded-full font-light hidden md:block"
+            className="bg-primary text-white px-4 py-2 rounded-full hover:bg-white hover:text-primary transition-all duration-300 font-light hidden md:block"
           >
             Create Account
           </button>
