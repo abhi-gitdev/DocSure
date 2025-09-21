@@ -51,7 +51,7 @@ const Navbar = () => {
             href="https://docsure-admin.vercel.app/"
             target="_blank"
             rel="noopener noreferrer"
-            className="bg-primary text-white px-4 py-2 rounded-full font-light border border-primary hover:bg-white hover:text-primary transition-all duration-300 hidden md:block"
+            className="bg-primary text-white px-4 py-2 rounded-full font-light border border-primary hover:bg-white hover:text-primary transition-all duration-300 "
           >
             Admin Panel
           </a>
